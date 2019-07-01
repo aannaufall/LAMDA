@@ -24,26 +24,28 @@
 	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/main_SignIn.css">
 <!--===============================================================================================-->
+
 </head>
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100">
+		<div class="container-login100" style="">
+			<!-- background-image: url('img/bg-01.jpg'); background gambar didalam style -->
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
 				<form class="login100-form validate-form flex-sb flex-w">
 					<span class="login100-form-title p-b-53">
-						Masuk
+						Sign In
 					</span>
-
+					
 					<div class="p-t-31 p-b-9">
 						<span class="txt1">
 							Username
 						</span>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Username is required">
-						<input class="input100" type="text"  name="userid" >
+						<input class="input100" type="text" name="username" >
 						<span class="focus-input100"></span>
 					</div>
 					
@@ -52,49 +54,32 @@
 							Password
 						</span>
 
-						<br>
 						<a href="#" class="txt2 bo1 m-l-5">
-						Lupa Password?
+							Forgot?
 						</a>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="pswrd" >
+						<input class="input100" type="password" name="pass" >
 						<span class="focus-input100"></span>
 					</div>
 
-					<div class="container-login100-form-btn m-t-17">
-						<button class="login100-form-btn" onclick="check(this.form)" value="Login">
+					<div href="home.html" class="container-login100-form-btn m-t-17">
+						<button href="home.html" class="login100-form-btn">
 							Sign In
 						</button>
 					</div>
 
 					<div class="w-full text-center p-t-55">
 						<span class="txt2">
-							Belum daftar? 
+							Not a member?
 						</span>
 
-						<a href="index_daftar.html" class="txt2 bo1">
-							Daftar Sekarang.
+						<a href="main_SignUp.html" class="txt2 bo1">
+							Sign up now
 						</a>
+
 					</div>
 				</form>
-
-				<script language="javascript">
-					function check(form)/*function to check userid & password*/
-					{
-					 /*the following code checkes whether the entered userid and password are matching*/
-					 if(form.userid.value == "user" && form.pswrd.value == "user")
-					  {
-						window.open('target.html')/*opens the target page while Id & password matches*/
-					  }
-					 else
-					 {
-					   alert("Password atau Username HASUUUUUU")/*displays error message*/
-					  }
-					}
-					</script>
-					
-
 			</div>
 		</div>
 	</div>
