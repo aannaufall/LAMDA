@@ -32,7 +32,6 @@
 	
 	<div class="limiter">
 		<div class="container-login100" style="">
-			<!-- background-image: url('img/bg-01.jpg'); background gambar didalam style -->
 			<div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
 				<form class="login100-form validate-form flex-sb flex-w">
 					<span class="login100-form-title p-b-53">
@@ -64,7 +63,7 @@
 					</div>
 
 					<div href="home.html" class="container-login100-form-btn m-t-17">
-						<button href="home.html" class="login100-form-btn">
+						<button class="login100-form-btn" onclick="check(this.form)" value="Login">
 							Sign In
 						</button>
 					</div>
@@ -78,21 +77,21 @@
 							Sign up now
 						</a>
 			
-			<script language="javascript">
+			
+						<script language="javascript">
 							function check(form)/*function to check userid & password*/
 							{
 							 /*the following code checkes whether the entered userid and password are matching*/
 							 if(form.userid.value == "admin" && form.pswrd.value == "admin")
 							  {
-								window.open('target.html')/*opens the target page while Id & password matches*/
+								window.open ('home.html')/*opens the target page while Id & password matches*/
 							  }
 							 else
 							 {
-							   alert("Password atau Username Salahhhhhhh")/*displays error message*/
+							   alert("Password atau Username Salah")/*displays error message*/
 							  }
 							}
 							</script>
-							
 		
 
 
