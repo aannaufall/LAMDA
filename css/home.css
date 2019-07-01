@@ -699,7 +699,7 @@ ul {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 45, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_banner.scss */
   .banner_part .banner_text h5 {
-    margin-bottom: 200px;
+    margin-bottom: 70px;
   }
 }
 
@@ -707,7 +707,7 @@ ul {
 .banner_part .banner_text h2 {
   font-size: 80px;
   line-height: 60px;
-  margin: 200px 0px 0px;
+  margin: 70px 0px 0px;
   font-weight: 700;
   letter-spacing: 3px;
   color: #fff;
