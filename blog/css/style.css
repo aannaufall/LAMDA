@@ -3481,3 +3481,36 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+.footer_part {
+  background-color: #3dc9f334;
+  padding: 1px 0px 2px;
+}
+
+
+/* line 166, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_footer.scss */
+.footer_part .copyright_text p {
+  color: #888;
+}
+
+/* line 169, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_footer.scss */
+.footer_part .copyright_text span {
+  color: #ff3334;
+  font-size: 12px;
+}
+
+/* line 174, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_footer.scss */
+.footer_part .copyright_text p a {
+  color: #ff3334;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 177, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_footer.scss */
+.footer_part .copyright_text p a:hover {
+  color: #ff3334;
+}
+
+/* line 181, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_footer.scss */
+.footer_part .info {
+  color: red !important;
+}
