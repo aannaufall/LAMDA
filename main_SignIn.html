@@ -45,7 +45,7 @@
 						</span>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Username is required">
-						<input class="input100" type="text" name="username" >
+						<input class="input100" type="text" name="userid" >
 						<span class="focus-input100"></span>
 					</div>
 					
@@ -59,7 +59,7 @@
 						</a>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-						<input class="input100" type="password" name="pass" >
+						<input class="input100" type="password" name="pswrd" >
 						<span class="focus-input100"></span>
 					</div>
 
@@ -77,6 +77,24 @@
 						<a href="main_SignUp.html" class="txt2 bo1">
 							Sign up now
 						</a>
+			
+			<script language="javascript">
+							function check(form)/*function to check userid & password*/
+							{
+							 /*the following code checkes whether the entered userid and password are matching*/
+							 if(form.userid.value == "admin" && form.pswrd.value == "admin")
+							  {
+								window.open('target.html')/*opens the target page while Id & password matches*/
+							  }
+							 else
+							 {
+							   alert("Password atau Username Salahhhhhhh")/*displays error message*/
+							  }
+							}
+							</script>
+							
+		
+
 
 					</div>
 				</form>
