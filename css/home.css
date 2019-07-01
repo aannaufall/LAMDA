@@ -375,7 +375,7 @@ ul {
 /* line 29, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_extends.scss */
 .banner_part:after, .breadcrumb:after {
   background: -webkit-linear-gradient(5deg, green 0%, rgba(18, 1, 248, 1.5) 100%);
-  background: -webkit-linear-gradient(5deg, #415094 0%, rgba(18, 1, 248, 0.1) 100%);
+  background: -webkit-linear-gradient(5deg, #41509471 0%, rgba(18, 1, 248, 0.1) 100%);
   background: -ms-linear-gradient(5deg, #f4e700 0%, rgba(18, 1, 248, 0.2) 100%);
 }
 
@@ -699,7 +699,7 @@ ul {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 45, ../../01 cl html template/New folder/May 2019/178 Real Estate/Real Estate Html/sass/_banner.scss */
   .banner_part .banner_text h5 {
-    margin-bottom: 10px;
+    margin-bottom: 200px;
   }
 }
 
@@ -707,7 +707,7 @@ ul {
 .banner_part .banner_text h2 {
   font-size: 80px;
   line-height: 60px;
-  margin: 0px 0px 0px;
+  margin: 200px 0px 0px;
   font-weight: 700;
   letter-spacing: 3px;
   color: #fff;
