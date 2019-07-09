@@ -843,7 +843,7 @@ ul {
 .project_gallery .project_gallery_tittle h2:after {
   position: absolute;
   top: 12px;
-  left: 269px;
+  left: 320px;
   content: "";
   width: 180px;
   height: 1px;
